@@ -5,12 +5,12 @@ metadata:
 spec:
   selector:
     matchLabels:
-      app: santa
+      app: jpetstore
   replicas: 2 # Number of replicas that will be created for this deployment
   template:
     metadata:
       labels:
-        app: santa
+        app: jpetstore
     spec:
       containers:
         - name: jpetstore-6
